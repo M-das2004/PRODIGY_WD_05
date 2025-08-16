@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0ec71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.895);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container:hover {
+    border: solid 5px #05e8f9;
+}
+
+#weatherInfo {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
